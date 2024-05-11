@@ -379,7 +379,7 @@
     .titulo-tres.mb-4: h3.mb-0 Bucles e iteraciones:
     p.mb-5(data-aos='fade-right') Los bucles son herramientas valiosas para automatizar tareas repetitivas, especialmente cuando se manejan grandes volúmenes de datos. Para implementar un bucle eficazmente, es crucial entender los siguientes conceptos: 
     .f-3-6.p-5.mb-5
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/42.svg', alt='')
         .col-lg-9
           SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
@@ -422,6 +422,7 @@
             li
               i.fas.fa-circle.fa-xs(style="color: #8722E2")
               | Cuando la condición sea falsa, se sale del bucle y continúa el programa. 
+      .col-lg-3.col-7: img(src='@/assets/curso/temas/43.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta-codigo.p-5.mb-5.h-100
