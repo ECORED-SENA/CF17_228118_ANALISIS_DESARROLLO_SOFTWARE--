@@ -153,29 +153,62 @@
         .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.svg', alt='')
         .col-lg-11(data-aos="fade-left")
           p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta <img> acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
         .col-lg-10
-          .tarjeta.color-primario.p-5.mb-5
+          .tarjeta.color-primario.p-3.mb-5
             .row.justify-content-center.align-items-center
               .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-10
                 h5.mb-3: span.titulo-azul.p-2 ¡Importante! 
                 p(data-aos='fade-right') Otros atributos importantes para la etiqueta #[span.color-azul &lt;img&gt;] son #[span.color-azul width] y #[span.color-azul height] que sirven para definir el ancho y el alto de la imagen dentro de la página web.
-          h4.mb-4 Un ejemplo de configuración de código HTML es:  
-    .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
-        .tarjeta-codigo.p-5.mb-5
+          h4.mb-3 Un ejemplo de configuración de código HTML es:  
+    .row.justify-content-center
+      .col-lg-9(data-aos="fade-right").mb-lg-0.mb-3
+        .tarjeta-codigo.p-4.mb-5
             pre.language-html(language="html").mt-5
               code
                 |&lt;html&gt; 
                 |&lt;head&gt; 
                 |&lt;/head&gt; 
                 |&lt;body&gt; 
-                |&lt;img src=“/misDocumentos/imagenes/2301-03.png” width=“50%        
-                |height:40%”&gt; &lt;/img&gt; 
+                |&lt;img src=“/misDocumentos/imagenes/2301-03.png” width=“50%” height:”40%”/&gt;
                 |&lt;/body&gt; 
                 |&lt;/html&gt; 
-      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/12.png', alt='')
+      //.col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/t13.png', alt='')
+    
+    Separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.4 Hiperenlaces
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/12b.svg', alt='')
+      .col(data-aos="fade-left")
+        p.mb-0 Esta funcionalidad permite la navegación entre diferentes páginas web, es decir, facilita el desplazamiento de una página a otra cuyos contenidos HTML están almacenados en archivos de distintos nombres y, posiblemente, en carpetas diferentes. Además, habilita la navegación hacia otras páginas web ya publicadas en internet. 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-center.align-items-center
+            .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
+            .col-lg-10
+              h5.mb-3: span.titulo-azul.p-2 ¡Ten en cuenta!
+              p(data-aos='fade-right') Para lograr un hiperenlace se debe utilizar la etiqueta #[span.color-azul &lt;a&gt;] acompañada del atributo #[span.color-azul href=“”] que indica el destino hacia la página a la que se quiere llegar y dentro de la etiqueta el texto que describe el sitio destino.
+
+        p #[strong Un ejemplo de código para hiperenlaces es:]
+
+        .row.justify-content-center
+          .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
+            .tarjeta-codigo.p-4.mb-5
+                pre.language-html(language="html").mt-5
+                  code
+                    |&lt;html&gt; 
+                    |&lt;head&gt; 
+                    |&lt;/head&gt; 
+                    |&lt;body&gt; 
+                    |&lt;a href="http://www.google.com"&gt; http://www.google.com &lt;/a&gt; 
+                    |&lt;/body&gt; 
+                    |&lt;/html&gt; 
+          //.col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/12.png', alt='')
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5 Tablas
@@ -217,12 +250,12 @@
           img(src='@/assets/curso/temas/14.svg', alt='El resultado es la distribución del texto configurado en el código, en un formato tabla.')
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario.p-5.mb-5
+          .tarjeta.color-primario.p-3.mb-5
             .row.justify-content-center.align-items-center
               .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-10
                 h5.mb-3: span.titulo-azul.p-2 ¡Importante : Divs!
-                p(data-aos='fade-right') Si bien es cierto que ya vimos el funcionamiento de las tablas, en el diseño de hoy se recomienda usar la etiqueta div que corresponde a un contenedor y permite realizar lo mismo de las tablas, pero con mayores opciones en funcionalidad y dinamismo.
+                p(data-aos='fade-right').mb-0 Si bien es cierto que ya vimos el funcionamiento de las tablas, en el diseño de hoy se recomienda usar la etiqueta div que corresponde a un contenedor y permite realizar lo mismo de las tablas, pero con mayores opciones en funcionalidad y dinamismo.
       .row.justify-content-center.mb-5
         .col-lg-8
           h5.mb-4 Un ejemplo de tabla usando Div: 

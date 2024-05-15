@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .fondo-intro.p-5.mn
+    .fondo-intro.p-5.mn.pt-0
       .tarjeta.p-5(data-aos="zoom-in" style="background-color: #debefb ").mb-5
         .row.justify-content-center.align-items-center
           .col-lg-3.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.svg', alt='')
