@@ -23,12 +23,13 @@
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--morada")
-            .p-2(titulo="Enfoque en usabilidad y estética"): p.mb-0 
+            .p-2(titulo="Enfoque en usabilidad y estética"): p.mb-0 El diseño de interfaces web se centra no solo en la funcionalidad y la apariencia visual, sino también en captar y mantener el interés de un número mayor de usuarios.
             .p-2(titulo="Importancia de la lealtad del usuario"): p.mb-0 En un mercado digital saturado, conseguir la lealtad de los usuarios es un desafío significativo, haciendo que la capacidad de atraer y retener usuarios sea crucial.
-            .p-2(titulo="Aplicación de principios fundamentales"): p.mb-0 
-            .p-2(titulo="Educación avanzada en diseño"): p.mb-0 
-            .p-2(titulo="Dinamismo del campo"): p.mb-0 
-            .p-2(titulo="Crecimiento impulsado por la tecnología"): p.mb-0 
+            .p-2(titulo="Aplicación de principios fundamentales"): p.mb-0 Comprender y aplicar los principios básicos del diseño de interfaces, junto con habilidades prácticas de programación, se ha convertido en una habilidad esencial.
+            .p-2(titulo="Educación avanzada en diseño"): p.mb-0 La inclusión de conceptos avanzados y ejemplos de código fuente en la educación de diseño prepara a los diseñadores y desarrolladores para enfrentar retos, construyendo interfaces que satisfacen y anticipan las necesidades de los usuarios.
+            .p-2(titulo="Dinamismo del campo"): p.mb-0 El diseño de interfaces web es un área de constante evolución que demanda un entendimiento profundo de las necesidades de los usuarios y la habilidad para implementar soluciones técnicas innovadoras.
+            .p-2(titulo="Crecimiento impulsado por la tecnología"): p.mb-0 La relevancia del diseño de interfaces web sigue en aumento, estimulada por el progreso tecnológico y el crecimiento de la economía digital, destacando la necesidad de enfoques de diseño que sean funcionales y visionarios.
+
         .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/3.svg', alt='')
               
 
