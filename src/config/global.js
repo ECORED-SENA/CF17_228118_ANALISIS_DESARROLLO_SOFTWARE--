@@ -109,32 +109,123 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'HTML 5',
+      referencia:
+        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
+      tipo: 'Página web',
+      link: 'https://htmled.it/or/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'JavaScript',
+      referencia: 'Cubic Factory. (2021). Ejecutar JavaScript.',
+      tipo: 'Página web',
+      link: 'https://www.cubicfactory.com/jseditor/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'CMS',
+      significado: 'Sistema manejador de contenidos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'CSS3',
+      significado: 'Hojas de estilo en cascada, versión 3.',
+    },
+    {
+      termino: 'ES6',
+      significado: 'Abreviación de ECMAScript, versión 6.',
+    },
+    {
+      termino: '<em>Frontend</em>',
+      significado: 'Capa de presentación de una aplicación web.',
+    },
+    {
+      termino: '<em>Get</em>',
+      significado: 'Método de envío de datos por URL web.',
+    },
+    {
+      termino: 'JavaScript',
+      significado: 'Lenguaje de programación.',
+    },
+    {
+      termino: 'LAN',
+      significado: 'Red de área local.',
+    },
+    {
+      termino: '<em>Landing Page</em>',
+      significado:
+        'Página web de aterrizaje, diseñada específicamente para una campaña de marketing o publicidad.',
+    },
+    {
+      termino: 'LESS',
+      significado:
+        'Hoja de estilo dinámica, extensión que amplía las capacidades de CSS.',
+    },
+    {
+      termino: 'MAN',
+      significado: 'Red de área metropolitana.',
+    },
+    {
+      termino: 'NODE.js',
+      significado:
+        'Entorno de ejecución para JavaScript del lado del servidor.',
+    },
+    {
+      termino: '<em>Plugin</em>',
+      significado:
+        'Aplicación que extiende las funcionalidades de un programa principal.',
+    },
+    {
+      termino: 'Post',
+      significado: 'Método de envío de datos por formulario web.',
+    },
+    {
+      termino: 'SEO',
+      significado:
+        'Optimización para motores de búsqueda, estrategias para mejorar la visibilidad de un sitio web.',
+    },
+    {
+      termino: 'WAN',
+      significado: 'Red de área extensa o mundial.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Acibeiro. M. (2021). Qué es un gestor de contenidos y cuál es el mejor para crear una web.',
+      link: 'https://www.lucushost.com/blog/gestor-de-contenidos/',
+    },
+    {
+      referencia: 'Beati, H. (2016). HTML5 y CSS3.',
+    },
+    {
+      referencia: 'Cuervo, P. V. (2019). 10 características de un CMS.',
+      link: 'https://www.arquitectoit.com/cms/10-caracteristicas-cms/',
+    },
+    {
+      referencia:
+        'Gutierrez, R. (2018). Understanding the role of digital commons in the web; The making of HTML5.',
+    },
+    {
+      referencia:
+        'Hverbeke, M. (2018). Eloquent JavaScript: A Modern Introduction to Programming.',
+    },
+    {
+      referencia:
+        'Lenguaje JS. (2021). ¿Qué son los bucles? Bucles, iteraciones y repetición de código.',
+      link: 'https://lenguajejs.com/javascript/introduccion/bucles/',
+    },
+    {
+      referencia:
+        'Mooc, Aprendizaje Online.(2015). Clasificación de los sistemas de gestión de contenidos.',
+      link:
+        'https://mooccontenidosweb.wordpress.com/2015/05/01/clasificacion-de-los-sistemas-de-gestion-de-contenidos/',
+    },
+    {
+      referencia:
+        'Mora, S. L. (2021). HTML5 y CSS3: <6> HTML5 – Formularios</6>.',
+      link:
+        'http://desarrolloweb.dlsi.ua.es/cursos/2011/html5-css3-es/html5-formularios',
     },
   ],
   creditos: [
@@ -157,8 +248,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Hernán Muñoz Carvajal',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -167,12 +264,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -182,7 +279,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
