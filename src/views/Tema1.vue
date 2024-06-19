@@ -145,7 +145,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1.
             span Resultado del código
-          img(src='@/assets/curso/temas/10.svg', alt='Primera línea de texto, con sangría: Mi primer texto en una página web que no es un párrafo.Segunda línea de texto sin sangría: Mi primer párrafo página web.Tercera línea de texto en mayúscula sostenida: MI PRIMER PÁRRAFO CITA EN UNA PAGINA WEB.Cuarta línea, con la página web entrecomillada: Siempre se dice que este es el mejor sitio para ver videos online “www.youtube.com”.Quinta línea de texto con la palabras más, correr y lento en cursiva: En ocasiones más vale correr lento pero seguro.Última línea, con las palabras piedras lleva en negrita: Cuando el río sueno piedras lleva.')
+          img(src='@/assets/curso/temas/10.svg', alt='Primera línea de texto, sin sangría: Mi primer texto en una página web que no es un párrafo. Segunda línea de texto sin sangría: Mi primer párrafo página web. Tercera línea de texto en mayúscula sostenida, con sangría: MI PRIMER PÁRRAFO CITA EN UNA PAGINA WEB. Cuarta línea con sangría, con la página web entrecomillada: Siempre se dice que este es el mejor sitio para ver videos online "www.youtube.com". Quinta línea de texto con la palabras correr, lento, pero y seguro en cursiva: En ocasiones más vale correr lento pero seguro.')
     Separador        
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Imágenes 
@@ -254,7 +254,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-10
-                h5.mb-3: span.titulo-azul.p-2 ¡Importante : Divs!
+                h5.mb-3: span.titulo-azul.p-2 ¡Importante: Divs!
                 p(data-aos='fade-right').mb-0 Si bien es cierto que ya vimos el funcionamiento de las tablas, en el diseño de hoy se recomienda usar la etiqueta div que corresponde a un contenedor y permite realizar lo mismo de las tablas, pero con mayores opciones en funcionalidad y dinamismo.
       .row.justify-content-center.mb-5
         .col-lg-8
@@ -300,7 +300,7 @@
             img(src='@/assets/curso/temas/16.svg', alt='') 
       .row.justify-content-center.mb-5
         .col-lg-8
-          h5.mb-4 Un ejemplo de código de un formulario es : 
+          h5.mb-4 Un ejemplo de código de un formulario es: 
           .tarjeta-codigo.p-5.mb-5
             pre.language-html(language="html").mt-5
               code

@@ -190,7 +190,7 @@
     .f-3-4.mn.p-5.mb-5
       .tarjeta.tarjeta--gris.p-4.mb-5
         LineaTiempoC.color-acento-botones(text-small)
-          .p-4(titulo="Variables numéricas ")
+          .p-4(titulo="Variable de caracteres")
             p.mb-3 Permite almacenar cadenas de texto dentro de las comillas, para bajar un renglón en el texto se debe utilizar \n, para agregar un tabulador \t, para comilla simple \’, para comillas dobles \”, y para barra inclinada \\. Ejemplo de variable de caracteres: 
             pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
                 code var nombreApellidos=”JUAN ESTEBAN GOMEZ \n”; 
@@ -397,7 +397,7 @@
               
             .tarjeta.color-primario.p-5
                 h4.text-center: span.color-azul Bucle infinito
-                p.text-center.text-white Se produce cuando el incremento al contador no se realiza, llevando a que el bucle nunca finalice. Es imperativo evitar esta situación para prevenir problemas de rendimiento en el programa 
+                p.text-center.text-white Se produce cuando el incremento al contador no se realiza, llevando a que el bucle nunca finalice. Es imperativo evitar esta situación para prevenir problemas de rendimiento en el programa. 
     h5.mb-4 A continuación, se presentan varios ejemplos de bucles: 
     .titulo-tres.mb-4: h3.mb-0 Bucle while
     .row.justify-content-center.align-items-center.mb-5

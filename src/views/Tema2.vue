@@ -25,7 +25,7 @@
 			.row.justify-content-center.mb-5
 				.col-lg-4.mb-lg-0.mb-3
 					.tarjeta.p-4(style="background-color: #f7eefe") 
-						h5 Separación de estructura del documento
+						h5 Separación de estructura del documento:
 						p Se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros)
 				.col-lg-4
 					.tarjeta.p-4(style="background-color: #d8fffa") 
@@ -123,7 +123,7 @@
 								figure
 									img(src='@/assets/curso/temas/26.svg', alt='Texto que describa la imagen')
 						h4.text-white Aplicación del concepto de módulos: 
-						p.text-white esta característica transforma la forma en que se definen los estilos de un sitio web, acercándose más a un enfoque de programación modular. Los módulos permiten organizar los estilos en contextos específicos y mantenerlos en archivos separados, lo que facilita su gestión y reutilización. Aunque la mención de archivos con extensión .less se asocia con un preprocesador CSS específico, el concepto modular en sí es fundamental para organizar CSS de manera más eficiente y no se limita a una extensión de archivo específica.
+						p.text-white Esta característica transforma la forma en que se definen los estilos de un sitio web, acercándose más a un enfoque de programación modular. Los módulos permiten organizar los estilos en contextos específicos y mantenerlos en archivos separados, lo que facilita su gestión y reutilización. Aunque la mención de archivos con extensión .less se asocia con un preprocesador CSS específico, el concepto modular en sí es fundamental para organizar CSS de manera más eficiente y no se limita a una extensión de archivo específica.
 			.col-lg-5.mb-lg-0.mb-3
 					.tarjeta.color-acento-contenido.p-4.h-100
 						.row.justify-content-center.mb-3
@@ -303,7 +303,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 6. 
 						span Resultado código del formulario. 
-					img(src='@/assets/curso/temas/32.svg', alt='')
+					img(src='@/assets/curso/temas/32.svg', alt='La imagen presenta el resultado del código del formulario.')
 
 
 </template>
